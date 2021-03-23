@@ -223,11 +223,6 @@ Hibernate supports following open-source cache implementations out-of-the-box: E
 
 См. видео урока "Динамическое изменение профиля при запуске". В плагине мы задаем параметры JVM запуска Tomcat
 
-> Почему мы не используем элемент `<context:annotation-config/>` в `spring-db.xml`?
-
-В проекте у нас сейчас 2 Spring контекста: `spring-mvc.xml (см. web.xml, DispatcherServlet)` и родительский `spring-app.xml + spring-db.xml (web.xml, contextConfigLocation)`.
-Грубо: 2 мапы, причем для mvc доступно все, что есть в родителе. Т.е. `spring-db.xml` не является отдельным самостоятельным контекстом, и достаточно того, что `<context:annotation-config/>` у нас есть в `spring-app.xml`.
-
 > A `@NamedQuery` или `@Query` подвержены кэшу запросов? Т.е. если мы поставим _USE_QUERY_CACHE_value_="true", будет ли Hibernate их кэшировать?
 
 Чтобы запрос кэшировался, кроме true в конфигурации [нужно еще явно выставить запросу _setCacheable_](http://vladmihalcea.com/2015/06/08/how-does-hibernate-query-cache-work/).    
