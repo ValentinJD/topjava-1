@@ -280,7 +280,7 @@ Hibernate supports following open-source cache implementations out-of-the-box: E
    - [Валидация данных при помощи Bean Validation API](https://alexkosarev.name/2018/07/30/bean-validation-api/) 
 
 ### Optional 2 (повышенной сложности)
-- 3 Отключить кэш в тестах через `NoOpCacheManager` и для кэша Hibernate 2-го уровня `hibernate.cache.use_second_level_cache=false`. 
+- 3 Отключить Spring кэш в `UserService` в тестах через `NoOpCacheManager` и для кэша Hibernate 2-го уровня `hibernate.cache.use_second_level_cache=false`. 
   - [JPA 2.0 disable session cache for unit tests](https://stackoverflow.com/a/58963737/548473)
   - [Example of PropertyOverrideConfigurer](https://www.concretepage.com/spring/example_propertyoverrideconfigurer_spring)
   - [Spring util schema](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#xsd-schemas-util)      
