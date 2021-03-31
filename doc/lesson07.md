@@ -159,6 +159,7 @@ GROUP BY u.id
 - [Java Code Examples for ObjectMapper](https://www.programcreek.com/java-api-examples/index.php?api=com.fasterxml.jackson.databind.ObjectMapper)
 
 #### Apply 7_15_tests_refactoring.patch
+- [Java @SafeVarargs Annotation](https://www.baeldung.com/java-safevarargs)
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 9. [Тестирование через SoapUi. UTF-8](https://drive.google.com/open?id=0B9Ye2auQ_NsFVXNmOUdBbUxxWVU)
 
