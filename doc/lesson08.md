@@ -54,7 +54,7 @@
 #### Apply 8_07_webjars.patch
 
 > - Обновил jQuery до 3.x, Bootstrap до 4.x
-  - <a href="https://tproger.ru/translations/new-features-of-jquery-3/">Новое в jQuery 3</a>
+>   - <a href="https://tproger.ru/translations/new-features-of-jquery-3/">Новое в jQuery 3</a>
 > - УБРАЛ из проекта <a href="http://dandelion.github.io">Dandelion обертку к datatables</a>: 
 >   - не встречал нигде, кроме Spring Pet Clinic;
 >   - поддержка работы с datatables через Dandelion оказалось гораздо более трудоемкое, чем работа с плагином напрямую.
@@ -76,6 +76,7 @@
 > - [WIKI Bootstrap](https://ru.wikipedia.org/wiki/Bootstrap_(фреймворк))
 > - Добавил <a href="https://www.w3schools.com/icons/fontawesome_icons_intro.asp">Font Awesome</a>
 >   - [Map glyphicon icons to font-awesome](https://gist.github.com/blowsie/15f8fe303383e361958bd53ecb7294f9)
+> - В `headTag.jsp` в ссылку на `style.css` добавил `?v=2`. Стили изменились, изменяя версию в параметре мы заставляем браузер не брать их из кэша, а загружать заново. 
 
 - [Bootstrap](https://getbootstrap.com/)
     - [Bootstrap Examples](https://getbootstrap.com/docs/4.1/examples/)
@@ -110,8 +111,8 @@ Maven скачивает все депенденси в local repository, кот
 > Оптимально ли делать доступ к статическим ресурсам (css, js, html) через webjars ?
 
 На продакшене под нагрузкой статические ресурсы лучше всего держать не в war, а снаружи. Доступ к ним делается либо
-через <a href="http://www.moreofless.co.uk/static-content-web-pages-images-tomcat-outside-war/">конфигурирование Tomcat</a>, но чаще всего через прокси, например <a href="https://nginx.org/ru/">
-Nginx</a>
+через <a href="http://www.moreofless.co.uk/static-content-web-pages-images-tomcat-outside-war/">конфигурирование Tomcat</a>.  
+Но чаще всего для доступа к статике ставят прокси, например <a href="https://nginx.org/ru/">Nginx</a>
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcGs4b1IyWWF2S2c">AJAX. Datatables. jQuery</a>
 
