@@ -43,8 +43,8 @@
   в [`Tools->HTTP Client->Test RESTful Web Service`](https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html) скопируйте curl без флага `-s`
 
 ###  ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. [HW7 Optional: getWithMeals + тесты](https://drive.google.com/file/d/13cjenXzWDr52HTTzleomOd-yjPAEAbOA)
-#### Apply 8_05_HW8_with_meals.patch
-#### Apply 8_06_HW8_test_with_meals.patch
+#### Apply 8_05_HW07_with_meals.patch
+#### Apply 8_06_HW07_test_with_meals.patch
 > Изменения в AssertJ: `ignoringAllOverriddenEquals` для рекурсивных сравнений не нужен. См. [overridden equals used before 3.17.0](https://assertj.github.io/doc/#assertj-core-recursive-comparison-ignoring-equals)
 
 ## Занятие 8:
