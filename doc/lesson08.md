@@ -122,9 +122,8 @@ JSP полезны, если надо с сервера отдать стати�
 По дебагу JavaScript из IDEA проверьте:
 
 - в IDEA плагин `JavaScript Debugger`
-- в Chrome расширение [JetBrains IDE Support](https://chrome.google.com/webstore/detail/jetbrains-ide-support/hmhgeddbohgjknpmjagkdomcpobmllji)
-- при проблемах с
-  портами [удалите в настройках IDEA файлы `~\AppData\Roaming\JetBrains\IntelliJIdea2020.x\options\web-browsers.xml` и `other.xml`](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360009567459-Webstorm-2020-2-1-Remote-Debugging-do-not-work)
+- [Chrome extension is not required for debugging since 2017.3](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360010507240-where-is-JETBRAINS-IDE-SUPPORT-chrome-extension-it-cant-be-found-anywhere-now-on-the-internet)
+- при проблемах с портами [удалите в настройках IDEA файлы `~\AppData\Roaming\JetBrains\IntelliJIdea2020.x\options\web-browsers.xml` и `other.xml`](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360009567459-Webstorm-2020-2-1-Remote-Debugging-do-not-work)
 
 #### Apply 8_09_ajax_datatables.patch
 
