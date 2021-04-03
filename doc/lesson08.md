@@ -111,7 +111,7 @@ Maven скачивает все депенденси в local repository, кот
 > Оптимально ли делать доступ к статическим ресурсам (css, js, html) через webjars ?
 
 На продакшене под нагрузкой статические ресурсы лучше всего держать не в war, а снаружи. Доступ к ним делается либо
-через <a href="http://www.moreofless.co.uk/static-content-web-pages-images-tomcat-outside-war/">конфигурирование Tomcat</a>.  
+через <a href="https://www.techsupper.com/2017/05/serve-static-resources-from-external-folder-outside-webapps-tomcat.html">конфигурирование Tomcat</a>.  
 Но чаще всего для доступа к статике ставят прокси, например <a href="https://nginx.org/ru/">Nginx</a>
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcGs4b1IyWWF2S2c">AJAX. Datatables. jQuery</a>
