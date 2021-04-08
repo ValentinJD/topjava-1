@@ -32,6 +32,10 @@
 
 #### Apply 9_03_HW8_enable_disable.patch
 
+Примечание: [в публичном API выполнять PATH с параметрами нельзя](https://stackoverflow.com/questions/64390768/can-i-use-query-parameters-with-http-patch-method).
+But in a situation where your API is only used by front ends that you control (for example, only called via your java script client downloaded from your web servers), and if you don't need to use any intermediate components (like a web cache) in the middle, then you might get away with it (данные у нас не кешируются).  
+Предлагайте красивые решения.
+
 ## Занятие 9:
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYlRkc2NGRGVydk0">Spring Binding</a>
