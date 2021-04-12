@@ -162,6 +162,7 @@
 #### Apply 5_8_spring_cache.patch
 - [Wiki Кэш](https://ru.wikipedia.org/wiki/Кэш)
   - [Spring Cache Abstraction](https://docs.spring.io/spring-framework/docs/current/reference/html/integration.html#cache)
+  - [ECache](https://www.ehcache.org)
   - [Configuring the Cache Storage](https://docs.spring.io/spring-framework/docs/current/reference/html/integration.html#cache-store-configuration)
 - [Spring 3.1 новый механизм кеширования](https://russianblogs.com/article/75981527090/)
 - [Spring 4+ with Ehcache 3 – how to](https://imhoratiu.wordpress.com/2017/01/26/spring-4-with-ehcache-3-how-to/)
