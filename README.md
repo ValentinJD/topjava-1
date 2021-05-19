@@ -4,7 +4,7 @@
 Java Enterprise Online Project
 ===============================
 - Стажировка Topjava
-Наиболее востребованные технологии /инструменты / фреймворки Java Enterprise:
+- Наиболее востребованные технологии /инструменты / фреймворки Java Enterprise:
 Maven/ Spring/ Security/ JPA(Hibernate)/ REST(Jackson)/ Bootstrap(CSS)/ jQuery + plugins.
 
 - [Вступительное занятие](https://github.com/JavaOPs/topjava)
